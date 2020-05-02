@@ -54,8 +54,11 @@ Dad:
   name        : "Paul Hardy"
   bio         : "a.k.a. Dad"
   avatar      : "/assets/images/avatar.png"
-  location    : Mariehamn, Åland
+  #location    : Mariehamn, Åland
   links:
+    - label   : Mariehamn, Åland
+      icon    : "fas fa-fw fa-map-marker-alt"
+      url     : "https://w3w.co/former.uptake.swells"
     - label   : "paul@sphardy.com"
       icon    : "far fa-fw fa-envelope"
       url     : "mailto:paul@sphardy.com"
