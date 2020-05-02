@@ -1,0 +1,150 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title:           "Paul's Place"
+title_separator: "|"
+subtitle:        "My small corner of the interweb"
+email:           webmail2020@sphardy.com
+logo:            "/assets/images/Masthead-150px.png"
+masthead_title:  ""
+
+repository:      "sphardy/sphardy.github.io"
+github: [metadata]
+
+description: >- # this means to ignore newlines until "baseurl:"
+  Paul's Place: A small personal space for random musings...
+twitter_username: s_paul_h
+github_username: sphardy
+minimal_mistakes_skin: air
+search: true
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: pretty
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Europe/Mariehamn
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+  - keybase.txt
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author: Paul Hardy
+
+footer:
+  links:
+    - label: "GitHub"
+      icon:  "fab fa-fw fa-github"
+      url:   "https://github.com/sphardy"
+    - label: "LinkedIn"
+      icon:  "fab fa-linkedin"
+      url:   "https://www.linkedin.com/in/spaulhardy/"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _oliver
+  #- scope:
+  #    path: ""
+  #    type: onah
+  #  values:
+  #    layout: single
+  #    author_profile: true
+  #    author: Dad
+  #    share: false
+  #    search: false
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+collections_dir: collections
+
+#collections:
+#  onah:
+#    output: true
+#    permalink: /:collection/:path/

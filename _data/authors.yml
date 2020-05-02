@@ -1,0 +1,69 @@
+# /_data/authors.yml
+Personal:
+  name        : "S. Paul Hardy"
+  bio         : "Eventually, my awesome biography constrained to a sentence or two will go here"
+  avatar      : "/assets/images/avatar.png"
+  location    : Mariehamn, Åland
+  links:
+    - label   : "Email"
+      icon    : "far fa-fw fa-envelope"
+      url     : "mailto:webmail2020@sphardy.com"
+    - label   : "Chat"
+      icon    : "fab fa-fw fa-keybase"
+      url     : "https://keybase.io/sphardy"
+
+Oliverah:
+  name        : "S. Paul Hardy"
+  bio         : "Technology Consultant & Musician"
+  avatar      : "/assets/images/avatar.png"
+  location    : Mariehamn, Åland
+  links:
+    - label   : "Email"
+      icon    : "far fa-fw fa-envelope"
+      url     : "mailto:webmail2020@oliverah.com"
+    - label   : "Website"
+      icon    : "fas fa-fw fa-link"
+      url     : "https://oliverah.com"
+    - label   : "LinkedIn"
+      icon    : "fab fa-fw fa-linkedin"
+      url     : "https://www.linkedin.com/in/company/oliverah/"
+    - label   : "Secure Chat"
+      icon    : "fab fa-fw fa-keybase"
+      url     : "https://keybase.io/team/oliverah.public"
+
+Paul Hardy:
+  name        : "S. Paul Hardy"
+  bio         : "Technology Consultant & Musician"
+  avatar      : "/assets/images/avatar.png"
+  location    : Mariehamn, Åland
+  links:
+    - label   : "Email"
+      icon    : "far fa-fw fa-envelope"
+      url     : "mailto:webmail2020@sphardy.com"
+    - label   : "LinkedIn"
+      icon    : "fab fa-fw fa-linkedin"
+      url     : "https://www.linkedin.com/in/spaulhardy/"
+    - label   : "Secure Chat"
+      icon    : "fab fa-fw fa-keybase"
+      url     : "https://keybase.io/sphardy"
+    - label   : "Oliverah Website"
+      icon    : "fas fa-fw fa-briefcase"
+      url     : "/oliverah"
+
+Dad:
+  name        : "Paul Hardy"
+  bio         : "a.k.a. Dad"
+  avatar      : "/assets/images/avatar.png"
+  location    : Mariehamn, Åland
+  links:
+    - label   : "paul@sphardy.com"
+      icon    : "far fa-fw fa-envelope"
+      url     : "mailto:paul@sphardy.com"
+    - label   : "+358 45 7345 5885"
+      icon    : "fas fa-fw fa-mobile-alt"
+      url     : "tel:+3584573455885"
+    - label   : "My Oliver Blog"
+      icon    : "fas fa-fw fa-link"
+      url     : "/onah2005/"
+
+
