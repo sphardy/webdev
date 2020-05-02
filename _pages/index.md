@@ -5,6 +5,8 @@ layout: splash
 title: "Paul's Place"
 author: Personal
 
+permalink: /
+
 header:
   image: /assets/images/splash-1920px.jpg
   #overlay_filter: 0.25
@@ -38,7 +40,7 @@ feature_row:
 
 #{% include feature_row %}
 ---
-Hello!
+Hello!!
 
 This is my latest attempt to establish a small spot on the internet to share info about myself & my business
 
