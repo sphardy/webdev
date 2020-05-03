@@ -6,6 +6,7 @@ author: Dad
 
 classes:
   - wide
+  - onah
 
 header:
   image: /assets/onah/splash.jpeg
@@ -16,12 +17,6 @@ sort_by: date # date (default) title
 sort_order: forward # forward (default), reverse\
 
 ---
-<style>
-  .page__footer { background-color: #555555; }
-</style>
 
-***
 A page dedicated to my son.
-{: .text-center .notice}
-
-***
+{: .text-center .notice--primary}
