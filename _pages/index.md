@@ -9,7 +9,6 @@ permalink: /
 
 header:
   image: /assets/images/splash-1920px.jpg
-  #overlay_filter: 0.25
   overlay_filter: rgba(0, 0, 127, 0.1)
   caption: "Photo credit: [**SPH**](mailto:webmail2020@sphardy.com)"
   #actions:
@@ -20,7 +19,6 @@ header:
 
 classes:
   - wide
-  - smallfont
 
 feature_row:
   - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
@@ -43,8 +41,6 @@ feature_row:
 Hello!!
 
 This is my latest attempt to establish a small spot on the internet to share info about myself & my business
-
-
 
 - My contact details are [here](/contact/)
 - Send me anything via [this link](https://sphardy.net/upload-to-sph)

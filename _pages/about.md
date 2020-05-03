@@ -10,12 +10,7 @@ header:
   #actions:
   #  - label: "Contact"
   #    url: "/contact/"
-
 ---
-
-<style>
-  .page__content { font-size: 0.85em;}
-</style>
 
 I am an electronic engineer, qualified in semiconductor design (ASIC & FPGA), and other technology disciplines where semiconductors are deployed (Telecommunications, Networking, etc).
 

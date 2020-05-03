@@ -7,7 +7,14 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-thead      { background-color: transparent; border-top: 2px solid #9B9B9D; }
+thead      { background-color: transparent;
+             border-top: 2px solid #9B9B9D; }  //Remove table header colour
 
-.smallfont p  { font-size: 0.85em; }
-.smallfont ul { font-size: 0.85em; }
+h4 { font-size: 0.9em; font-weight: normal; margin: 0.5em 0 0.5em; }
+
+.page__footer { background-color: #555555; }   //Darken Page Footer
+.page__content p  { font-size: 0.85em; }   //Resize default font
+.page__content ul { font-size: 0.85em; }   //Resize default font
+
+//Custom Styles
+.sph_img { border-radius: 7px; }               //Embedded post/page images
