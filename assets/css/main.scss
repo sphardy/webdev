@@ -10,11 +10,12 @@
 thead      { background-color: transparent;
              border-top: 2px solid #9B9B9D; }  //Remove table header colour
 
-h4 { font-size: 0.9em; font-weight: normal; margin: 0.5em 0 0.5em; }
+h4 { font-size: 0.9em; font-weight: lighter; font-style: italic; margin: 1.0em 0 0.5em; }
 
 .page__footer { background-color: #555555; }   //Darken Page Footer
 .page__content p  { font-size: 0.85em; }   //Resize default font
 .page__content ul { font-size: 0.85em; }   //Resize default font
 
 //Custom Styles
-.sph_img { border-radius: 7px; }               //Embedded post/page images
+.sph_img  { border-radius: 7px; }               //Embedded post/page images
+.sph_date p { font-size: 0.75em; }

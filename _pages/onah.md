@@ -1,12 +1,13 @@
 ---
 title: For Oliver
-layout: home
+layout: collection
+collection: onah
 permalink: /onah2005/
 author: Dad
 
 classes:
   - wide
-  - onah
+#  - onah
 
 header:
   image: /assets/onah/splash.jpeg
@@ -14,7 +15,7 @@ header:
 entries_layout: grid # list (default), grid
 show_excerpts: true # true (default), false
 sort_by: date # date (default) title
-sort_order: forward # forward (default), reverse\
+sort_order: reverse # forward (default), reverse\
 
 ---
 
