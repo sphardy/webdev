@@ -148,3 +148,10 @@ collections_dir: collections
 #  onah:
 #    output: true
 #    permalink: /:collection/:path/
+
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+    label: "comment"
