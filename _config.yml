@@ -124,16 +124,17 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _oliver
-  #- scope:
-  #    path: ""
-  #    type: onah
-  #  values:
-  #    layout: single
-  #    author_profile: true
-  #    author: Dad
-  #    share: false
-  #    search: false
+   _oliver
+  - scope:
+      path: ""
+      type: onah
+    values:
+      layout: single
+      author_profile: true
+      author: Dad
+      share: false
+      search: false
+      comments: true
 
 category_archive:
   type: liquid
