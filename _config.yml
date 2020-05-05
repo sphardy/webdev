@@ -125,15 +125,15 @@ defaults:
       layout: single
       author_profile: true
   # _oliver
-  #- scope:
-  #    path: ""
-  #    type: onah
-  #  values:
-  #    layout: single
-  #    author_profile: true
-  #    author: Dad
-  #    share: false
-  #    search: false
+  - scope:
+      path: ""
+      type: onah
+    values:
+      layout: single
+      author_profile: true
+      author: Dad
+      share: false
+      search: false
 
 category_archive:
   type: liquid
@@ -144,7 +144,7 @@ tag_archive:
 
 collections_dir: collections
 
-#collections:
-#  onah:
-#    output: true
-#    permalink: /:collection/:path/
+collections:
+  onah:
+    output: true
+    permalink: /:collection/:path/
