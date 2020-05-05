@@ -4,6 +4,8 @@ layout: home
 permalink: /blog/
 author: Paul Hardy
 
+published: false
+
 classes:
   - wide
 
