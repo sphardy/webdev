@@ -144,10 +144,10 @@ tag_archive:
 
 collections_dir: collections
 
-#collections:
-#  onah:
-#    output: true
-#    permalink: /:collection/:path/
+collections:
+  onah:
+    output: true
+    permalink: /:path/
 
 comments:
   provider: "utterances"
