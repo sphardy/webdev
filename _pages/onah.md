@@ -1,6 +1,6 @@
 ---
 title: For Oliver
-layout: collection
+layout: sph_collection
 collection: onah
 permalink: /onah2005/
 author: Dad
