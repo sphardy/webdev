@@ -7,6 +7,7 @@ title: "Contact"
 header:
   overlay_image: /assets/images/splash-1920px.jpg
   overlay_filter: rgba(0, 0, 127, 0.1)
+  caption: "Photo: [*SPH*](mailto:photos@sphardy.com)"
 ---
 
 | Contact    | | |

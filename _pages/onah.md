@@ -7,17 +7,18 @@ author: Dad
 
 classes:
   - wide
-#  - onah
+  - onah
 
 header:
   image: /assets/onah/splash.jpeg
+  caption: "Photo: [*SPH*](mailto:photos@sphardy.com)"
 
-entries_layout: grid # list (default), grid
+entries_layout: list # list (default), grid
 show_excerpts: true # true (default), false
 sort_by: date # date (default) title
 sort_order: reverse # forward (default), reverse\
 
 ---
 
-A page dedicated to my son.
+A blog page dedicated to my son.
 {: .text-center .notice--primary}

@@ -10,12 +10,7 @@ permalink: /
 header:
   image: /assets/images/splash-1920px.jpg
   overlay_filter: rgba(0, 0, 127, 0.1)
-  caption: "Photo credit: [**SPH**](mailto:webmail2020@sphardy.com)"
-  #actions:
-  #  - label: "About Me"
-  #    url: "/about/"
-  #  - label: "About Oliverah"
-  #    url: "/oliverah/"
+  caption: "Photo: [*SPH*](mailto:photos@sphardy.com)"
 
 classes:
   - wide

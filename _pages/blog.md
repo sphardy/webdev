@@ -11,7 +11,7 @@ classes:
 
 header:
   image: /assets/images/clouds-1920.jpg
-  caption: "Photo: **SPH**"
+  caption: "Photo: [*SPH*](mailto:photos@sphardy.com)"
 
 show_excerpts: true # true (default), false
 sort_by: date # date (default) title
